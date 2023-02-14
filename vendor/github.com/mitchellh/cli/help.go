@@ -3,7 +3,7 @@ package cli
 import (
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"sort"
 	"strings"
 )

@@ -5,7 +5,7 @@ package resource
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	"sigs.k8s.io/kustomize/api/filters/patchstrategicmerge"

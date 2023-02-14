@@ -1,7 +1,7 @@
 package log
 
 import (
-	stdlog "log"
+	stdlog log "github.com/sirupsen/logrus"
 	"os"
 )
 

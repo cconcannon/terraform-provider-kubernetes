@@ -17,7 +17,7 @@ package swag
 import (
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net/http"
 	"net/url"
 	"os"

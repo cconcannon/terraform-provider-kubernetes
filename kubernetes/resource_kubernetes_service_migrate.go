@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"log"
+	log "github.com/sirupsen/logrus"
 )
 
 // resourceKubernetesServiceV0 is a copy of the Kubernetes Service schema (before migration).

@@ -42,7 +42,7 @@ package proto
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"sort"
 	"strconv"

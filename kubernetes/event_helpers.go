@@ -3,7 +3,7 @@ package kubernetes
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"sort"
 
 	api "k8s.io/api/core/v1"
