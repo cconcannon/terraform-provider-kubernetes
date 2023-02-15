@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
 	"regexp"

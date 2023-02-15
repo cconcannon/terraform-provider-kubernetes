@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"time"
 

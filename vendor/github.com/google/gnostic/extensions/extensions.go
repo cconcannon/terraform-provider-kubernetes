@@ -16,7 +16,7 @@ package gnostic_extension_v1
 
 import (
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 
 	"github.com/golang/protobuf/proto"

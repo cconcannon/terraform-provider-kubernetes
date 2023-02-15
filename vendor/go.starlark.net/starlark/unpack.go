@@ -5,7 +5,7 @@ package starlark
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"strings"
 

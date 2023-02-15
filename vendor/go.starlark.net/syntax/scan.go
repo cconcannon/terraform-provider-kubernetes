@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math/big"
 	"os"
 	"strconv"

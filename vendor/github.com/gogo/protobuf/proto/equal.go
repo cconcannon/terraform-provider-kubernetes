@@ -35,7 +35,7 @@ package proto
 
 import (
 	"bytes"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"strings"
 )

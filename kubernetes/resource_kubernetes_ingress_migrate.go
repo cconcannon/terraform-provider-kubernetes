@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	networking "k8s.io/api/networking/v1beta1"
-	"log"
+	log "github.com/sirupsen/logrus"
 )
 
 // resourceKubernetesIngressV0 is a copy of the Kubernetes Ingress schema (before migration).

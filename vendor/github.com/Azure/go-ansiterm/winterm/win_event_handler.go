@@ -4,7 +4,7 @@ package winterm
 
 import (
 	"bytes"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"strconv"
 

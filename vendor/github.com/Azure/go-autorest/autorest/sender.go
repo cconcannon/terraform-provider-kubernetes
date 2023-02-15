@@ -18,7 +18,7 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math"
 	"net"
 	"net/http"

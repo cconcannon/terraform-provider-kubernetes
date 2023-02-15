@@ -65,7 +65,7 @@ import (
 	"encoding/binary"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"sync/atomic"
 	"time"

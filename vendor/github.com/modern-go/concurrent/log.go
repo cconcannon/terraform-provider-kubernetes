@@ -2,7 +2,7 @@ package concurrent
 
 import (
 	"os"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"io/ioutil"
 )
 

@@ -224,7 +224,7 @@ To create and play with a Test object:
 	package main
 
 	import (
-		"log"
+		log "github.com/sirupsen/logrus"
 
 		"github.com/gogo/protobuf/proto"
 		pb "./example.pb"
@@ -266,7 +266,7 @@ package proto
 import (
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"sort"
 	"strconv"
